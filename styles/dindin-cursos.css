@@ -1,0 +1,77 @@
+.tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align:start;
+    margin-left:82px;
+    margin-top: 81px;
+    margin-bottom: 30px;
+}
+.tittle > h1{
+    font-size: 60px ;
+    font-weight: 700;
+    color: #FF4081;
+    margin-inline-end: 0;
+    margin-block-end: 0;
+    
+}
+.tittle >h4{
+    font-size: 20px ;
+    font-weight: 400;
+    color: #555555;
+    margin-inline-start: 0 !important;
+    margin-block-start: 0 !important;
+    
+}
+
+.container-cursos{
+    display: flex;
+    flex-direction: column;
+}
+.cursos{
+    display: flex;
+   justify-content: center;
+   padding:100px;
+}
+.cursos > img{
+    width: 380px;
+    height: 381px;
+    padding: 100px;
+}
+.cursos >img:last-child{
+    width: 380px;
+    height: 498px;
+}
+.texto-cursos{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    margin-left:  53px;
+
+}
+.texto-cursos > h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #ff4081;
+}
+.texto-cursos > p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 37px;
+}
+.texto-cursos >button{
+    background-color: #2E948A;
+    color: white;
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 83px;
+}
+.linha{
+    height: 5px;
+    background-color: #C4C4C4;
+    width: 90%;
+}

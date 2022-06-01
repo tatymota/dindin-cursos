@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.educacao-financeira{
+    margin-top: 125px;
+}
+.educacao-financeira > h1{
+    font-size: 60px;
+    font-weight: 700;
+    color: #FF4081;
+}
+.educacao-financeira > p{
+    font-size: 27px;
+    font-weight: 400;
+    color: #555555;
+}
+.educacao-financeira >button{
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    width: 268px;
+    height: 51px;
+    background-color: white;
+    font-size: 27px;
+    font-weight: 400;
+    color: #FF4081;
+}
+.imagem-educacao{
+    margin-top: 135px;
+    width: 501px;
+    height: 511px;
+}
+.investimentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+    padding: 109px;
+}
+.iniciantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iniciantes > img{
+    width: 288px;
+    height: 270px;
+}
+.iniciantes > h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #FF4081;
+}
+.iniciantes > p{
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+.iniciantes > button{
+    background-color: #FF4081;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 20PX;
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+}
+.opiniao{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    padding: 109px;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+}
+.titulo-opiniao{
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;
+    padding: 50px 100px;
+}
+.depoimentos{
+    display: flex;
+    flex-direction: row;
+}
+.depoimentos > img{
+    width: 84px;
+    height: 68px;
+    margin: 15px;
+}
+.conteudo{
+    background-color:#E5E5E5 ;
+}
+.titulo-mais-conteudo{
+    font-size: 37px;
+    font-weight: 700;
+    color: #009688;
+    display: flex;
+    align-content: flex-start;
+    padding: 50px 100px;
+}
+.mais-conteudo{
+    display: flex;
+    flex-direction: row;
+}
+.container-conteudo{
+    padding: 50px 100px;
+}
+.container-conteudo > h3{
+    color:#009688;
+    font-size: 27px;
+    font-weight: 700;
+    margin-block-end: 0px !important;
+}
+.container-conteudo > p{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    margin-block-start: 0px;
+}
+.imagem-conteudo{
+    background-color:#C4C4C4;
+    width: 319px;
+    height: 193px;
+}
+
+
