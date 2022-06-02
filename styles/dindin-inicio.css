@@ -102,7 +102,7 @@
     margin: 15px;
 }
 .conteudo{
-    background-color:#E5E5E5 ;
+    background-color:#E5E5E5;
 }
 .titulo-mais-conteudo{
     font-size: 37px;
@@ -136,6 +136,20 @@
     background-color:#C4C4C4;
     width: 319px;
     height: 193px;
+}
+.button-conteudo{
+    border: 2px solid #FF4081;
+    background-color: #E5E5E5;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    color: #FF4081;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    margin-right: 30%;
+    align-content: center;
 }
 
 
