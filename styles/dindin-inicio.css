@@ -33,9 +33,8 @@
 }
 .imagem-educacao{
     margin-top: 135px;
-    width: 501px;
-    height: 511px;
 }
+
 .investimentos{
     display: flex;
     flex-direction: row;
@@ -43,14 +42,17 @@
     align-items: center;
     background-color: #F7F7F7;
     padding: 109px;
+    flex-wrap: wrap;
 }
 .iniciantes{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 380px;
+    flex: 1 1 auto;
+    padding: 0 20px;
 }
 .iniciantes > img{
-    width: 288px;
     height: 270px;
 }
 .iniciantes > h3{
@@ -69,11 +71,12 @@
     background-color: #FF4081;
     color:#FFFFFF;
     font-weight: 400;
-    font-size: 20PX;
+    font-size: 20px;
     width: 233px;
     height: 51px;
     border-radius: 62px;
 }
+
 .opiniao{
     display: flex;
     flex-direction: row;
@@ -101,8 +104,12 @@
     height: 68px;
     margin: 15px;
 }
+
 .conteudo{
     background-color:#E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .titulo-mais-conteudo{
     font-size: 37px;
@@ -111,13 +118,16 @@
     display: flex;
     align-content: flex-start;
     padding: 50px 100px;
+    width: 100%;
 }
 .mais-conteudo{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 .container-conteudo{
-    padding: 50px 100px;
+    width: 380px;
 }
 .container-conteudo > h3{
     color:#009688;
@@ -147,9 +157,72 @@
     font-size: 25px;
     font-weight: 400;
     margin-bottom: 50px;
-    margin-left: 40%;
-    margin-right: 30%;
-    align-content: center;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+    .header-logo {
+        margin-left: 20px;
+        width: 150px;
+    }
+
+    .educacao-financeira > h1{
+        font-size: 40px;
+    }
+
+    .educacao-financeira > p{
+        font-size: 20px;
+    }
+
+    .imagem-educacao > img{
+        width: 200px;
+    }
+
+    .investimentos{
+        flex-direction: column;
+        padding: 100px 20px;
+    }
+
+    .iniciantes{
+        margin-bottom: 50px;
+    }
+
+    .opiniao{
+        padding: 50px;
+    }
+
+    .titulo-opiniao{
+        font-size: 37px;
+        font-weight: 700;
+        color: #009688;
+        padding: 50px 0 0 50px;
+    }
+
+    .titulo-mais-conteudo{
+        padding: 50px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    .header-logo {
+        margin-left: 20px;
+        width: 100px;
+    }
+
+    .imagem-educacao{
+        display: none;
+    }
+
+    .iniciantes{
+        width: 300px;
+    }
+
+    .iniciantes > button{
+        font-size: 16px;
+        width: 200px;
+        height: 40px;
+    }
 }
 
 
