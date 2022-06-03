@@ -84,7 +84,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #FFFFFF;
-    padding: 109px;
+    padding: 0 100px 100px 100px;
     font-size: 18px;
     color: black;
     font-weight: 300;
@@ -100,7 +100,6 @@
     flex-direction: row;
 }
 .depoimentos > img{
-    width: 84px;
     height: 68px;
     margin: 15px;
 }

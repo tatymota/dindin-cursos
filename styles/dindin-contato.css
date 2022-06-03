@@ -2,9 +2,15 @@
     display: flex;
     flex-direction:row ;
     justify-content: space-evenly;
+    align-items: center;
     margin-top:100px;
     margin-bottom: 100px;
 }
+.form-container{
+    width: 100%;
+    margin: 20px;
+}
+
 .form{
     display: flex;
     flex-direction: column;
@@ -14,11 +20,9 @@
     border-radius: 7px;
     border: 1px solid #686868 ;
     box-sizing: border-box;
-    width: 493px;
     height: 32px;
 }
 .mensagem{
-    width: 493px;
     height: 193px !important;
 }
 .form > input::placeholder{
@@ -40,9 +44,24 @@
     font-weight: 800;
     color: #FFFFFF;
     background-color: #FF4081;
+    border-color: #FF4081;
     text-align: center;
     border-radius: 50px;
     bottom: -0.95%;
     width: 108px;
     height: 32px;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+    .telefone-imagem {
+        width: 300px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    .telefone-imagem {
+        display: none;
+    }
 }

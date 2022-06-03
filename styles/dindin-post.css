@@ -1,6 +1,3 @@
-.post{
-
-}
 .post > h1{
     font-weight: 500;
     font-size: 50px;
@@ -27,8 +24,8 @@
 .text-post{
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin: 0 150px;
+    text-align: justify;
 }
 .text-post > p{
     font-size: 18px;
@@ -57,16 +54,20 @@
     justify-content: space-between;
     align-items: center;
     background-color: #F7F7F7;
-    padding: 109px;
+    padding: 50px 109px;
+    flex-wrap: wrap;
 }
 .iniciantes{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    width: 380px;
+    flex: 1 1 auto;
+    padding: 0 20px;
+    margin-bottom: 50px;
 }
+
 .iniciantes > img{
-    width: 288px;
     height: 270px;
 }
 .iniciantes > h3{
@@ -89,4 +90,16 @@
     width: 233px;
     height: 51px;
     border-radius: 62px;
+}
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+    .text-post{
+        margin: 0 30px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 480px) {
+    
 }

@@ -8,6 +8,11 @@ header{
     align-items: center;
     height: 117px;
 }
+
+button{
+    cursor: pointer;
+}
+
 .header-logo{
     margin-left: 82px;
 }
@@ -129,8 +134,9 @@ footer{
     }
 
     .menu-navegacao{
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 20px;
+        padding-inline-start: 0;
     }
 
     footer{
