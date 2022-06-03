@@ -1,0 +1,92 @@
+.post{
+
+}
+.post > h1{
+    font-weight: 500;
+    font-size: 50px;
+    color: #FF4081;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 72px;
+}
+.post > p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.imagem{
+    width: 1032px;
+    height: 465px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 74px;
+    margin-bottom: 50px;
+}
+.text-post{
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.text-post > p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.text-post > h2{
+    text-align: start;
+    color: #419488;
+    font-weight: 700;
+    font-size: 27px;
+}
+.mais-cursos{
+    background-color: #F7F7F7;
+}
+.mais-cursos > h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 79px;
+    color: #FF4081;
+}
+.investimentos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F7F7F7;
+    padding: 109px;
+}
+.iniciantes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.iniciantes > img{
+    width: 288px;
+    height: 270px;
+}
+.iniciantes > h3{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    color: #FF4081;
+}
+.iniciantes > p{
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+}
+.iniciantes > button{
+    background-color: #FF4081;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 20PX;
+    width: 233px;
+    height: 51px;
+    border-radius: 62px;
+}
